@@ -61,7 +61,7 @@
                         <a href="javascript:void(0)" class="collapsed" data-target="#menu" data-toggle="collapse"><i class="icon-menu menu"></i></a>
                          <div id="menu" class="collapse">
                            <ul class="menu-link">
-                               <li><a href="/imondblog">My Blog</a></li>
+                               <li><a href="/">My Blog</a></li>
                                <li><a href="/imondwork">Work</a></li>
                                <li><a href="/imondcontact">Contact</a></li>
                             </ul>
@@ -113,7 +113,7 @@
                           <footer>
                           <ul class="menu-link">
                                <li><a href="/">Home</a></li>
-                               <li><a href="/imondblog">My Blog</a></li>
+                               <li><a href="/">My Blog</a></li>
                                <li><a href="/imondwork">My Work</a></li>
                                <li><a href="/imondcontact">Contact</a></li>
                             </ul>

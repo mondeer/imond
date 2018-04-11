@@ -6,7 +6,7 @@
 
       <div class="sub-title">
         <h2>Contact Me</h2>
-          <a href="index.html"><i class="icon-home"></i></a>
+          <a href="/"><i class="icon-home"></i></a>
        </div>
 
 
@@ -15,23 +15,25 @@
 
           <!-- Intro Start -->
           <div class="post-title margin-bottom-10">
-             <h1>Looking for a <span class="main-color">online presence</span>?</h1>
+             <h1>Looking for a <span class="main-color">Seasoned Developer</span>?</h1>
              </div>
-
-            <p>I am in the website field since 2004 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at quam at orci commodo hendrerit vitae nec eros. Vestibulum neque est, imperdiet nec tortor nec, tempor semper metus. <b>I am a developer</b>, et accumsan nisi. Duis laoreet pretium ultricies. Curabitur rhoncus auctor nunc congue sodales. Sed posuere nisi ipsum, eget dignissim nunc dapibus eget. Aenean elementum sollicitudin sapien ut sapien fermentum aliquet mollis. Curabitur ac quam orci sodales quam ut tempor.</p>
+             <div class="col-md-offset-3 col-md-12">
+               <img src="blog/images/kim.jpeg" class="imond" alt="">
+             </div>
+            <p>.</p>
                <!-- Intro End -->
 
           <!-- Testimonials Start -->
           <div class="post-title margin-top-50">
-             <h2>I hope you've checked <a href="work.html" data-toggle="tooltip" data-placement="top" title="Check out my work.">my work</a>, Let's take a look on what other clients said about my work.</h2>
+             <h2>I hope you've checked <a href="/imondwork" data-toggle="tooltip" data-placement="top" title="Check out my work.">my work</a>, Let's take a look on what other clients said about my work.</h2>
              </div>
 
 
-          <div class="row">
+          <!-- <div class="row">
 
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="testimonial-content">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at quam at orci commodo hendrerit vitae nec eros. Vestibulum neque est, imperdiet nec tortor nec, tempor semper metus.</p>
+               <p>Nice job delivered on time, the best develoment i ever interacted with.</p>
             </div>
 
             <div class="testimonial-client-info">
@@ -40,8 +42,8 @@
               </div>
 
               <div class="client-text">
-                <div class="client-name">Jhon Doe</div>
-                <span>Rolling LTD, Founder</span>
+                <div class="client-name">client</div>
+                <span>Tropical, College</span>
               </div>
             </div>
            </div>
@@ -80,7 +82,7 @@
             </div>
            </div>
 
-          </div>
+          </div> -->
           <!-- Testimonials  End -->
 
          <!-- Contact Me Start -->
@@ -92,21 +94,21 @@
              <div class="col-md-4 col-sm-4">
                <div class="contact-us-detail">
                 <i class="icon-screen-smartphone color-6"></i>
-                <p><a href="tel:+1234567890">+1234 567 890</a></p>
+                <p><a href="#">+254 724 871 111</a></p>
               </div>
              </div>
 
              <div class="col-md-4 col-sm-4">
                <div class="contact-us-detail">
                 <i class="icon-envelope-open color-5"></i>
-                <p><a href="mailto:name@domain.com">name@domain.com</a></p>
+                <p><a href="mailto:mondiakering@gmail.com">mondiakering@gmail.com, mondia@imond.co.ke</a></p>
               </div>
              </div>
 
              <div class="col-md-4 col-sm-4">
                <div class="contact-us-detail">
                 <i class="icon-clock color-3"></i>
-                <p>Mon - Fri 09:00 – 18:00</p>
+                <p>Sun - Fri 00:00 – 00:00(24/6)</p>
               </div>
             </div>
 
@@ -147,9 +149,9 @@
                 <select id="subject" class="form-group form-control">
                  <option value="" selected disabled>Subject</option>
                  <option>Website Design & Development</option>
-                 <option>Wordpress Development</option>
-                 <option>Search Engine Optimization</option>
-                 <option>Mobile Website</option>
+                 <option>Mobile App Development</option>
+                 <option>Integrated System Development</option>
+                 <option>Web App development</option>
                  <option>I Want to General Talk</option>
                  <option>Other</option>
                </select>
