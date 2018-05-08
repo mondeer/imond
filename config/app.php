@@ -176,6 +176,7 @@ return [
         // imond\Providers\BroadcastServiceProvider::class,
         imond\Providers\EventServiceProvider::class,
         imond\Providers\RouteServiceProvider::class,
+        Kagga\Telco\TelcoServiceProvider::class,
 
     ],
 
@@ -225,6 +226,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Telco' => Kagga\Telco\facades\Telco::class,
 
     ],
 

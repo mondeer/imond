@@ -21,3 +21,11 @@ Route::get('/imondwork', function(){
 Route::get('/imondcontact', function(){
   return view('imondcontact');
 });
+
+Route::get('imond/sms', 'SmsCtrl@sms_init');
+
+Route::post('imond/sms', 'SmsCtrl@imondSend');
+
+Route::get('imond/contact', 'ContactCtrl@index');
+
+Route::post('imond/contact', 'ContactCtrl@saveContact');
