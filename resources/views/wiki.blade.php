@@ -3,3 +3,4 @@
 @section('content')
 {!!$page!!}
 @endsection
+<!DOCTYPE html>
