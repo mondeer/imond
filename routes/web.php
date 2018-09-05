@@ -30,3 +30,7 @@ Route::post('imond/sms', 'SmsCtrl@imondSend');
 Route::get('imond/contact', 'ContactCtrl@index');
 
 Route::post('imond/contact', 'ContactCtrl@saveContact');
+
+Route::get('/wiki', function(){
+  echo (new Wikipedia)->page('Donald Trump');
+});
