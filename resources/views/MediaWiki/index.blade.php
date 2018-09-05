@@ -91,14 +91,24 @@
     <div id="main">
         <div class="container">
             <div class="row">
-              <form method="get" action="/wiki">
-                      <div class="subscribe-form margin-top-20">
-                          <input id="mc-email" name="keyword" type="text" placeholder="Query Wikipedia" class="text-input">
-                          <button class="submit-btn" type="submit">Search</button>
-                      </div>
-                 <p>Search Wikipedia</p>
-                 <label for="mc-email" class="mc-label"></label>
-               </form>
+              <div class="sub-title">
+             		<a href="/" title="Go to Home Page"><h2>Back Home</h2></a>
+                  <a href="#" class="smoth-scroll"><i class="icon-bubbles"></i></a>
+               </div>
+              <!-- Subscribe Form Start -->
+                <div class="col-md-8 col-md-offset-2">
+                    <form method="get" action="/wiki">
+                            <div class="subscribe-form margin-top-20">
+                                <input id="mc-email" name="keyword" type="text" placeholder="Query Wikipedia" class="text-input">
+                                <button class="submit-btn" type="submit">Search</button>
+                            </div>
+                       <p>Search Wikipedia</p>
+                       <label for="mc-email" class="mc-label"></label>
+                     </form>
+
+                 </div>
+                 <!-- Subscribe Form End -->
+
                  <!-- About Me (Left Sidebar) Start -->
                  {{-- <div class="col-md-3">
                    <div class="about-fixed">
@@ -136,26 +146,11 @@
 
                  <!-- Blog Post (Right Sidebar) Start -->
                  <div class="col-md-12">
-                    <div class="col-md-12 page-body">
+                        <div class="col-md-12 page-body">
 
-                      @yield('content')
+                          @yield('content')
 
-                        <!-- Subscribe Form Start -->
-                        <div class="col-md-8 col-md-offset-2">
-                           <form id="mc-form" method="post" action="">
-
-              						         <div class="subscribe-form margin-top-20">
-              							           <input id="mc-email" type="email" placeholder="Email Address" class="text-input">
-              							           <button class="submit-btn" type="submit">Submit</button>
-              								     </div>
-                              <p>Subscribe to my weekly Thoughts</p>
-              								<label for="mc-email" class="mc-label"></label>
-              							  </form>
-
-                           </div>
-                           <!-- Subscribe Form End -->
-
-                         </div>
+                        </div>
 
                        <!-- Footer Start -->
                        <div class="col-md-12 page-body margin-top-50 footer">
