@@ -6,6 +6,7 @@
       <form class="form-horizontal" role="form" method="POST" action="{{ url('/imond/sms') }}">
           {{ csrf_field() }}
         <div class="form-group">
+<<<<<<< HEAD
             <label for="tel" class="col-md-4 control-label">Phone Number</label>
 
             <div class="col-md-6">
@@ -13,6 +14,9 @@
                        placeholder="e.g +2567______" required>
             </div>
 
+=======
+            <h1>Admissions communication</h1>
+>>>>>>> 9a1d843b97b2834a3d59995fb89faa5cd104ee6c
         </div>
 
         <div class="form-group">

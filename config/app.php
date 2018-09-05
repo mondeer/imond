@@ -177,8 +177,11 @@ return [
         imond\Providers\EventServiceProvider::class,
         imond\Providers\RouteServiceProvider::class,
         Kagga\Telco\TelcoServiceProvider::class,
+<<<<<<< HEAD
         UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+=======
+>>>>>>> 9a1d843b97b2834a3d59995fb89faa5cd104ee6c
 
     ],
 
@@ -229,9 +232,12 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Telco' => Kagga\Telco\facades\Telco::class,
+<<<<<<< HEAD
         'Image' => Intervention\Image\Facades\Image::class,
 
 
+=======
+>>>>>>> 9a1d843b97b2834a3d59995fb89faa5cd104ee6c
 
     ],
 
