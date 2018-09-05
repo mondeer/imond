@@ -16,11 +16,14 @@
             <p>
                 <span class="fa fa-clock-o"></span> {{ Carbon\Carbon::parse($blog->created_at)->format('d-m-Y') }}
             </p>
+            <iframe src="https://www.youtube.com/embed/xI0uGBEPMts?controls=0" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
             <hr>
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="{{$blog->content}}" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127669.09351646721!2d35.199171436058336!3d0.5117561176467033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178101ae37f9f535%3A0xe2db337df0fc0820!2sEldoret!5e0!3m2!1ssw!2ske!4v1536151355344" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 
   </div>
   <hr>
