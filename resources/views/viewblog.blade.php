@@ -3,7 +3,7 @@
 @section('content')
 <div class="row">
   <div class="sub-title">
- 		<a href="/imondblog" title="Go to Home Page"><h2>Back Home</h2></a>
+ 		<a href="/" title="Go to Home Page"><h2>Back Home</h2></a>
       <a href="#" class="smoth-scroll"><i class="icon-bubbles"></i></a>
    </div>
 
@@ -17,9 +17,9 @@
                 <span class="fa fa-clock-o"></span> {{ Carbon\Carbon::parse($blog->created_at)->format('d-m-Y') }}
             </p>
             <hr>
-          <p class="lead imondblog" align="justify">
-              {!! $blog->content !!}
-          </p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="{{$blog->content}}" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
 
   </div>
   <hr>

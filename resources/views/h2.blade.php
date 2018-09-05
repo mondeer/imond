@@ -12,12 +12,11 @@
           <input type="text" class="form-control" name="title" placeholder="your title goes here {{Auth::user()->name}}" required>
         </div>
       </div>
-      <div class="form-group">
-        <label class="col-sm-2 control-label">Question</label>
-        <div class="col-sm-10">
-          {{-- <iframe src="/laravel-filemanager" style="width: 100%; height: 500px; overflow: hidden; border: none;"></iframe> --}}
 
-          <textarea id="message" class="editable medium-editor-textarea" rows="13" placeholder="{{Auth::user()->name}}, your content goes here, at the bottom right of this canvas, expand" name="content"></textarea>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Content</label>
+        <div class="col-sm-10">
+          <textarea id="message" class="form-control" rows="13" placeholder="{{Auth::user()->name}}, your content goes here, at the bottom right of this canvas, expand" name="content"></textarea>
         </div>
       </div>
       <div class="form-group">

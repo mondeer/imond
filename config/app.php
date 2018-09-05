@@ -176,6 +176,9 @@ return [
         // imond\Providers\BroadcastServiceProvider::class,
         imond\Providers\EventServiceProvider::class,
         imond\Providers\RouteServiceProvider::class,
+        Kagga\Telco\TelcoServiceProvider::class,
+        UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
 
     ],
 
@@ -225,6 +228,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Telco' => Kagga\Telco\facades\Telco::class,
+        'Image' => Intervention\Image\Facades\Image::class,
+
+
 
     ],
 
