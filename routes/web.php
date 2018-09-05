@@ -25,10 +25,8 @@ Route::get('/imondcontact', function(){
 Route::get('imond/sms', 'SmsCtrl@sms_init');
 
 Route::post('imond/sms', 'SmsCtrl@imondSend');
-<<<<<<< HEAD
-=======
+
 
 Route::get('imond/contact', 'ContactCtrl@index');
 
 Route::post('imond/contact', 'ContactCtrl@saveContact');
->>>>>>> 9a1d843b97b2834a3d59995fb89faa5cd104ee6c
