@@ -122,7 +122,7 @@ return [
     */
 
     'user' => [
-        'namespace'                     => 'App\User',
+        'namespace'                     => 'imond\User',
         'database_field_with_user_name' => 'name',
         'relative_url_to_profile'       => '',
         'relative_url_to_image_assets'  => '',
@@ -253,7 +253,7 @@ return [
     'paginate' => [
         'num_of_results' => 10,
     ],
-    
+
     /*
     |--------------------------------------------------------------------------
     | Show missing fields to users in forms

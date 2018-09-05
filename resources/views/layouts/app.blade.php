@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('css')
 </head>
 <body>
     <div id="app">
@@ -29,7 +30,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', 'iMond Playgroud') }}
                     </a>
                 </div>
 
@@ -75,6 +76,7 @@
     </div>
 
     <!-- Scripts -->
+    @yield('js')
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
